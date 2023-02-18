@@ -4,13 +4,13 @@ BUG_Author: lcg22266
 
 vendors:https://www.sourcecodester.com/php/15167/simple-payroll-system-dynamic-tax-bracket-phpoop-and-mysql-free-source-code.html
 
-Steps to reproduce
+#### Steps to reproduce
 
 Access url address "http://ip/spms/admin/?page=admin" and Click "Add New"
 
-Paste the below payload on Full Name fields and click Save
-
 ![image](https://github.com/lcg-22266/bug_pic/blob/main/click.png)
+
+Paste the below payload on Full Name fields and click Save
 
 ```
 <script>alert(document.cookie)</script>
